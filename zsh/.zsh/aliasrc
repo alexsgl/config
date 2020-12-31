@@ -1,0 +1,13 @@
+#!/bin/sh
+
+alias \
+	diff='diff --color=auto' \
+	grep='grep --color=auto' \
+	ls='ls -hN --color=auto --group-directories-first' \
+	ll='ls -AFl' \
+	open='xdg-open' \
+	untar='tar -xfv' \	
+	youtube-dl='/usr/local/bin/youtube-dl --add-metadata -i' \
+	youtube-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"' \
+	python='/usr/bin/python3' \
+	rss='newsboat' \
