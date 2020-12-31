@@ -28,6 +28,8 @@ prompt off
 
 export PATH=$PATH:$HOME/.local/bin
 
+export EDITOR="vim"
+
 source "${HOME}/.zsh/aliasrc"
 source "${HOME}/.zsh/keybindings.zsh"
 source "${HOME}/.zsh/termsupport.zsh"
