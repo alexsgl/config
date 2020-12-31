@@ -17,11 +17,14 @@ echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -c
 
 sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-systemctl status docker
+systemctl is-active docker
+
+sudo usermod -aG docker $USER
 
 ## docker-compose
 wget -4 https://github.com/docker/compose/releases/latest/download/docker-compose-Linux-x86_64
 wget -4 https://github.com/docker/compose/releases/latest/download/docker-compose-Linux-x86_64.sha256
-sha256sum -c docker-compose-Linux-x86_64.sha256 docker-compose-Linux-x86_64
+sha256sum -c docker-compose-Linux-x86_64.sha256 \
+  && mv docker-compose-Linux-x86_64 ~/.local/bin/docker-compose
 rm docker-compose-Linux-x86_64.sha256 docker-compose-Linux-x86_64
 
