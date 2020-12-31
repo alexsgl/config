@@ -1,4 +1,4 @@
-## dotfiles
+## configs
 Install:
 ```
 cd ~
