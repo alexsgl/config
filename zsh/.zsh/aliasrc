@@ -7,7 +7,7 @@ alias \
 	ll="ls -AFl" \
 	open="xdg-open" \
 	untar="tar -xfv" \
-	youtube-dl="/usr/local/bin/youtube-dl --add-metadata -i" \
+	youtube-dl="~/.local/bin/youtube-dl --add-metadata -i" \
 	youtube-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'" \
 	youtube-audio="youtube-dl --extract-audio --audio-format opus" \
 	python="/usr/bin/python3" \
