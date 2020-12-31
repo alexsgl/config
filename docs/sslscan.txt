@@ -1,0 +1,8 @@
+git clone https://github.com/rbsec/sslscan.git ~/Downloads/sslscan
+cd ~/Downloads/sslscan
+sudo apt-get install build-essential git zlib1g-dev
+Uncomment deb-src in sources.list
+sudo apt-get build-dep openssl
+make static
+cp sslscan ~/.local/bin/sslscan
+

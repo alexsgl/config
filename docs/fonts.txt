@@ -1,0 +1,8 @@
+Cascadia Code:
+https://github.com/microsoft/cascadia-code/releases/latest
+
+mkdir -p ~/.local/share/fonts/CascadiaCode
+
+
+
+fc-cache --force
