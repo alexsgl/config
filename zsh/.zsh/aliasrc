@@ -3,13 +3,13 @@
 alias \
 	diff="diff --color=auto" \
 	grep="grep --color=auto" \
-	ls="ls -hN --color=auto --group-directories-first" \
 	ll="ls -AFl" \
+	ls="ls -hN --color=auto --group-directories-first" \
 	open="xdg-open" \
+	python="/usr/bin/python3" \
+	rss="newsboat" \
 	untar="tar -xfv" \
 	youtube-dl="~/.local/bin/youtube-dl --add-metadata -i" \
 	youtube-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'" \
 	youtube-audio="youtube-dl --extract-audio --audio-format opus" \
-	python="/usr/bin/python3" \
-	rss="newsboat" \
 

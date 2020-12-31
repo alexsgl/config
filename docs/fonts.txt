@@ -4,5 +4,14 @@ https://github.com/microsoft/cascadia-code/releases/latest
 mkdir -p ~/.local/share/fonts/CascadiaCode
 
 
+Fira Code:
+https://github.com/tonsky/FiraCode/releases/latest
+
+Merriweather:
+https://fonts.google.com/specimen/Merriweather
+
+Ubuntu font:
+https://design.ubuntu.com/font/
+Download: https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip
 
 fc-cache --force

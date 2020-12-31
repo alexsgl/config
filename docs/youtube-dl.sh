@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function Download() {
-    wget -O ~/Downloads/youtube-dl https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl
-    wget -O ~/Downloads/youtube-dl-SHA2-SHA512SUMS https://github.com/ytdl-org/youtube-dl/releases/latest/download/SHA2-512SUMS
+    wget -4 -O ~/Downloads/youtube-dl https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl
+    wget -4 -O ~/Downloads/youtube-dl-SHA2-SHA512SUMS https://github.com/ytdl-org/youtube-dl/releases/latest/download/SHA2-512SUMS
 }
 
 function Verify() {
