@@ -10,7 +10,7 @@ Open GParted & create 3 partitions
 Open terminal.
 ```
 $ sudo -i
-# cryptsetup luksFormat --type=luks2 -c aes-xts-plain64 -s 512 -h 384 --iter-time 3000 /dev/sda3
+# cryptsetup luksFormat --type=luks2 -c aes-xts-plain64 -s 512 -h sha384 --iter-time 3000 /dev/sda3
 Enter YES and type passphrase twice.
 Now open the device:
 # cryptsetup luksOpen /dev/sda3 sda3_crypt
@@ -28,7 +28,7 @@ After setup finishes, click "Continue Testing".
 Switch to terminal again.
 ```
 # blkid /dev/sda3 -> copy UUID
-# mount /dev/mapper/cryptvg /mnt
+# mount /dev/mapper/cryptvg-root /mnt
 # mount /dev/sda2 /mnt/boot
 # mount --bind /dev /mnt/dev
 # chroot /mnt
@@ -39,6 +39,7 @@ Switch to terminal again.
   sda3_crypt UUID=<sda3_UUID> none luks
 Regenerate initramfs
 # update-initramfs -k all -c
+# exit
 # exit
 $ exit
 ```
