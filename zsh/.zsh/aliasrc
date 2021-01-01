@@ -8,6 +8,9 @@ alias \
 	open="xdg-open" \
 	python="/usr/bin/python3" \
 	rss="newsboat" \
+	s256="sha256sum" \
+	s384="sha384sum" \
+	s512="sha512sum" \
 	untar="tar -xfv" \
 	youtube-dl="~/.local/bin/youtube-dl --add-metadata -i" \
 	youtube-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'" \
