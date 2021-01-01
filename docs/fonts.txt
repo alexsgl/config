@@ -1,11 +1,18 @@
+
+mkdir -p ~/.local/share/fonts/{CasciadiaCode,FiraCode,JetBrainsMono,Merriweather}
+
 Cascadia Code:
 https://github.com/microsoft/cascadia-code/releases/latest
 
 mkdir -p ~/.local/share/fonts/CascadiaCode
-
+unzip CascadiaCode-* ~/.local/share/fonts/CascadiaCode
 
 Fira Code:
 https://github.com/tonsky/FiraCode/releases/latest
+
+JetBrains Mono:
+https://www.jetbrains.com/lp/mono/
+https://download.jetbrains.com/fonts/JetBrainsMono-2.221.zip
 
 Merriweather:
 https://fonts.google.com/specimen/Merriweather
