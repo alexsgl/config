@@ -1,3 +1,11 @@
+"       .__  
+" ___  _|__| ____________   ____   
+" \  \/ /  |/     \_  __ \_/ ___\ 
+"  \   /|  |  Y Y  \  | \/\  \___ 
+"   \_/ |__|__|_|  /__|    \___  >
+"                \/            \/ 
+" 
+
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

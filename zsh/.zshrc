@@ -34,9 +34,11 @@ source "${HOME}/.zsh/aliasrc"
 source "${HOME}/.zsh/keybindings.zsh"
 source "${HOME}/.zsh/termsupport.zsh"
 
-test -e "$HOME/.zsh/plugins/zsh-completions/src" \
-   && fpath=($HOME/.zsh/plugins/zsh-completions/src $fpath)
+if [ -d "$HOME/.zsh/plugins/zsh-completions/src" ]; then
+    fpath=($HOME/.zsh/plugins/zsh-completions/src $fpath)
+fi
 
-test -e "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" \
-   && source "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+if [ -f "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
+    source "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+fi
 
