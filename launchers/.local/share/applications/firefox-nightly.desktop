@@ -3,21 +3,21 @@ Version=1.0
 Name=Firefox Nightly
 GenericName=Web Browser
 Comment=Web browser from Mozilla (Nightly)
-Exec=/Applications/FirefoxNightly.app/firefox %u
-Icon=/Applications/FirefoxNightly.app/browser/chrome/icons/default/default128.png
+Exec=/Applications/FirefoxNightly/firefox %u
+Icon=/Applications/FirefoxNightly/browser/chrome/icons/default/default128.png
 Terminal=false
 Type=Application
 MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
 StartupNotify=true
-StartupWMClass=Firefox Beta
+StartupWMClass=Firefox Nightly
 Categories=WebBrowser;Network;
 Keywords=web;browser;internet;
 Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=/Applications/FirefoxNightly.app/firefox --new-window %u
+Exec=/Applications/FirefoxNightly/firefox --new-window %u
 
 [Desktop Action new-private-window]
 Name=New Private Window
-Exec=/Applications/FirefoxNightly.app/firefox --private-window %u
+Exec=/Applications/FirefoxNightly/firefox --private-window %u
