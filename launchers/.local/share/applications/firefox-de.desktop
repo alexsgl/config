@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
-Name=Firefox ESR
+Name=Firefox Developer Edition
 GenericName=Web Browser
-Comment=Web browser from Mozilla (Extended Support Release)
-Exec=/Applications/FirefoxESR/firefox %u
-Icon=/Applications/FirefoxESR/browser/chrome/icons/default/default128.png
+Comment=Web browser from Mozilla (Developer Edition)
+Exec=/Applications/FirefoxDeveloperEdition/firefox %u
+Icon=/Applications/FirefoxDeveloperEdition/browser/chrome/icons/default/default128.png
 Terminal=false
 Type=Application
 MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
@@ -16,8 +16,8 @@ Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=/Applications/FirefoxESR/firefox --new-window %u
+Exec=/Applications/FirefoxDeveloperEdition/firefox --new-window %u
 
 [Desktop Action new-private-window]
 Name=New Private Window
-Exec=/Applications/FirefoxESR/firefox --private-window %u
+Exec=/Applications/FirefoxDeveloperEdition/firefox --private-window %u
